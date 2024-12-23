@@ -6,7 +6,7 @@ import Homepage from "./pages/Homepage";
 function App() {
   return (
     <Router>
-      <div className="bg-slate-100 min-h-screen">
+      <div className="bg-white min-h-screen">
         <Header />
         <Routes>
           <Route index element={<Homepage />} />
