@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         customGray: "#F4F5F0",
       },
+      fontFamily: {
+        lato: ["Lato", "sans-serif"],
+      },
     },
   },
   plugins: [],

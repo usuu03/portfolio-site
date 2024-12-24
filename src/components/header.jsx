@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="flex w-full justify-between items-center p-4">
+    <div className="flex w-full justify-between items-center p-8">
       {/** Left Side: Name and Role*/}
       <div className="flex items-center">
         <span className="text-gray-500 text-sm ml-2">Usu's Portfolio Site</span>
@@ -21,17 +21,20 @@ export default function Header() {
             Projects
           </p>
         </Link>
-        <Link>
+        {/* <Link>
           <p className="text-gray-600 hover:text-gray-900 transition duration-200">
             About Me
           </p>
-        </Link>
+        </Link> */}
       </div>
 
       {/* Right: Contact Button */}
       <div className="ml-auto">
         <a href="mailto:usunobu.omijie@gmail.com">
-          <button className="bg-gray-800 px-4 py-2 rounded-md text-white hover:bg-gray-700 transition duration-200">
+          <button
+            className="bg-gray-800 px-4 py-2 text-white hover:bg-gray-700 transition duration-200"
+            id="contact"
+          >
             Contact Me
           </button>
         </a>
