@@ -1,7 +1,7 @@
 import React from "react";
-import Hero from "../components/hero";
-import InfoSection from "../components/infoSection";
-import Services from "../components/services";
+import Hero from "../components/homepage/hero";
+import InfoSection from "../components/homepage/infoSection";
+import Services from "../components/homepage/services";
 import Footer from "../components/Footer";
 
 export default function Homepage() {
@@ -10,7 +10,6 @@ export default function Homepage() {
       <Hero />
       <InfoSection />
       <Services />
-      <Footer />
     </div>
   );
 }

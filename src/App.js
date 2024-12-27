@@ -2,6 +2,7 @@ import Header from "./components/header";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProjectDisplay from "./pages/ProjectDisplay";
 import Homepage from "./pages/Homepage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Route index element={<Homepage />} />
           <Route path="/projects" element={<ProjectDisplay />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

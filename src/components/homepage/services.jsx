@@ -1,7 +1,7 @@
 import React from "react";
-import helpingHand from "../images/helpingHand.png";
-import prudentLadies from "../images/pladies.png";
-import make from "../images/make_example.png";
+import helpingHand from "../../images/helpingHand.png";
+import prudentLadies from "../../images/pladies.png";
+import make from "../../images/make_example.png";
 
 export default function Services() {
   return (
@@ -51,7 +51,7 @@ export default function Services() {
             <img
               src={prudentLadies}
               alt="Professional Website Design"
-              className="rounded-lg shadow-lg object-cover w-full h-48 bg-gray-200"
+              className="shadow-lg object-cover w-full h-48 bg-gray-200"
             />
           </a>
         </div>

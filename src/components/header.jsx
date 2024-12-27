@@ -11,7 +11,7 @@ export default function Header() {
 
       {/* Center: Navigation Links */}
       <div className="flex justify-center items-center flex-grow space-x-8">
-        <Link>
+        <Link to="/">
           <p className="text-gray-600 hover:text-gray-900 transition duration-200">
             Home
           </p>
