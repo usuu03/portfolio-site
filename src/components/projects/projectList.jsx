@@ -2,6 +2,7 @@ import React from "react";
 import helpingHand from "../../images/helpingHand.png";
 import pladies from "../../images/pladies.png";
 import getWebsited from "../../images/getwebsited.png";
+import platformer from "../../images/platformer_game.png";
 
 export default function Projects() {
   return (
@@ -114,6 +115,23 @@ export default function Projects() {
             />
           </a>
           <span className="text-sm text-gray-500">Get Websited</span>
+        </div>
+
+        {/* Project 7 */}
+        <div className="flex-col text-center">
+          <a
+            href="https://drive.google.com/file/d/131UqVqYbaqaJbJN5WtWqNC33Cz0JeCL3/view"
+            className="group block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={platformer}
+              alt=""
+              className="shadow-lg object-cover w-full h-64 bg-gray-200 group-hover:scale-105 transition-transform duration-300"
+            />
+          </a>
+          <span className="text-sm text-gray-500">2D Platformer Game</span>
         </div>
       </div>
     </div>
