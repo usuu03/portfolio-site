@@ -29,41 +29,7 @@ export default function Projects() {
           <span className="text-sm text-gray-500">Crowdfunding Platform</span>
         </div>
 
-        {/* Project 2 */}
-        <div className="flex-col text-center">
-          <a
-            href=""
-            className="group block"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={helpingHand}
-              alt=""
-              className="shadow-lg object-cover w-full h-64 bg-gray-200 group-hover:scale-105 transition-transform duration-300"
-            />
-          </a>
-          <span className="text-sm text-gray-500">Asset Manager</span>
-        </div>
-
-        {/* Project 3 */}
-        <div className="flex-col text-center">
-          <a
-            href=""
-            className="group block"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={helpingHand}
-              alt=""
-              className="shadow-lg object-cover w-full h-64 bg-gray-200 group-hover:scale-105 transition-transform duration-300"
-            />
-          </a>
-          <span className="text-sm text-gray-500">Flight Deal Notifier</span>
-        </div>
-
-        {/* Project 4 */}
+        {/* Project - Prudent Ladies Club UK */}
         <div className="flex-col text-center">
           <a
             href="https://prudentladiesclub.co.uk"
@@ -83,24 +49,7 @@ export default function Projects() {
           </span>
         </div>
 
-        {/* Project 5 */}
-        <div className="flex-col text-center">
-          <a
-            href=""
-            className="group block"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={helpingHand}
-              alt=""
-              className="shadow-lg object-cover w-full h-64 bg-gray-200 group-hover:scale-105 transition-transform duration-300"
-            />
-          </a>
-          <span className="text-sm text-gray-500">Block Mining Simulator</span>
-        </div>
-
-        {/* Project 6 */}
+        {/* Project - Get Websited */}
         <div className="flex-col text-center">
           <a
             href="https://getwebsited.co.uk"
@@ -117,7 +66,7 @@ export default function Projects() {
           <span className="text-sm text-gray-500">Get Websited</span>
         </div>
 
-        {/* Project 7 */}
+        {/* Project - 2D Platformer Game */}
         <div className="flex-col text-center">
           <a
             href="https://drive.google.com/file/d/131UqVqYbaqaJbJN5WtWqNC33Cz0JeCL3/view"
