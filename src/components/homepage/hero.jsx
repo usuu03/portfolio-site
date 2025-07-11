@@ -19,7 +19,7 @@ export default function Hero() {
       {/* Call to Action Section */}
       <div className="p-6">
         <h3 className="text-2xl pb-3">
-          A Software Developer based in <br /> London, England
+          A Junior Software Developer based in <br /> London, England
         </h3>
         <span className="text-gray-500 text-sm">
           Dedicated to developing software that empowers users and drives

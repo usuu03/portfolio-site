@@ -15,23 +15,7 @@ export default function InfoSection() {
                 Junior Software Developer at <b>Techary</b>
               </p>
               <span className="text-sm text-gray-500 block">
-                September 2024 - Present
-              </span>
-            </li>
-            <li className="border-b pb-2">
-              <p>
-                Busser/Food Runner at <b>Big Easy</b>
-              </p>
-              <span className="text-sm text-gray-500 block">
-                July 2023 - January 2024
-              </span>
-            </li>
-            <li className="border-b pb-2">
-              <p>
-                Packaging Assistant at <b>Krispy Kreme</b>
-              </p>
-              <span className="text-sm text-gray-500 block">
-                June 2022 - September 2022
+                October 2024 - Present
               </span>
             </li>
           </ul>
@@ -46,14 +30,14 @@ export default function InfoSection() {
             <li className="border-b pb-2">
               <p>Programming Languages</p>
               <span className="text-sm text-gray-500 block">
-                Python, JavaScript, Java, SQL, HTML/CSS
+                C#, Python, TypeScript, JavaScript, PHP, SQL, HTML/CSS
               </span>
             </li>
             <li className="border-b pb-2">
               <p>Tools</p>
               <span className="text-sm text-gray-500 block">
-                Django, Flask, NodeJS, React, MySQL, PostgreSQL, Git, Make.com
-                (Integromat), Wordpress
+                .NET 9, Django, Flask, NodeJS, React, MySQL, PostgreSQL, Git,
+                Make.com (Integromat), Wordpress
               </span>
             </li>
             <li className="border-b pb-2">
