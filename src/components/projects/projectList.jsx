@@ -49,7 +49,7 @@ export default function Projects() {
           </span>
         </div>
 
-        {/* Project - Get Websited */}
+        {/* Project - Get Websited
         <div className="flex-col text-center">
           <a
             href="https://getwebsited.co.uk"
@@ -64,7 +64,7 @@ export default function Projects() {
             />
           </a>
           <span className="text-sm text-gray-500">Get Websited</span>
-        </div>
+        </div> */}
 
         {/* Project - 2D Platformer Game */}
         <div className="flex-col text-center">
