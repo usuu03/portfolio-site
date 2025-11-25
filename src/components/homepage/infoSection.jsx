@@ -12,10 +12,18 @@ export default function InfoSection() {
           <ul className="space-y-6">
             <li className="border-b pb-2">
               <p>
-                Junior Software Developer at <b>Techary</b>
+                Graduate Developer at <b>Techary</b>
               </p>
               <span className="text-sm text-gray-500 block">
-                October 2024 - Present
+                October 2024 - November 2025
+              </span>
+            </li>
+            <li className="border-b pb-2">
+              <p>
+                Junior Backend Developer at <b>Crimson Tide PLC</b>
+              </p>
+              <span className="text-sm text-gray-500 block">
+                December 2025 - Present
               </span>
             </li>
           </ul>
@@ -36,7 +44,7 @@ export default function InfoSection() {
             <li className="border-b pb-2">
               <p>Tools</p>
               <span className="text-sm text-gray-500 block">
-                .NET 9, Django, Flask, NodeJS, React, MySQL, PostgreSQL, Git,
+                .NET 9, Django, NodeJS, React, PostgreSQL, Git,
                 Make.com (Integromat), Wordpress
               </span>
             </li>
