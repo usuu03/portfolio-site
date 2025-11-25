@@ -4,13 +4,18 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleNavClick = () => {
+    // Close menu after clicking a link on mobile
+    setIsMenuOpen(false);
+  };
+
   return (
-    <header>
-      <div className="flex w-full justify-between items-center p-4 md:p-6">
+    <header className="w-full border-b border-gray-200 bg-[#F4F5F0]">
+      <div className="relative flex w-full justify-between items-center p-4 md:p-6">
         {/* Left Side: Site Name */}
         <div className="flex items-center">
-          <span className="text-gray-700 text-lg font-semibold">
-            Usu's Portfolio
+          <span className="text-gray-800 text-lg font-semibold">
+            Usu&apos;s Portfolio
           </span>
         </div>
 
@@ -18,7 +23,7 @@ export default function Header() {
         <div className="md:hidden">
           <button
             className="focus:outline-none"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            onClick={() => setIsMenuOpen((prev) => !prev)}
             aria-label="Toggle navigation menu"
           >
             <svg
@@ -44,15 +49,19 @@ export default function Header() {
 
         {/* Navigation Links */}
         <nav
-          className={`${
-            isMenuOpen ? "block" : "hidden"
-          } absolute top-16 left-0 w-full  md:static md:flex md:w-auto md:space-x-8 md:items-center`}
+          className={`
+            ${isMenuOpen ? "block" : "hidden"}
+            absolute top-full left-0 w-full
+            bg-[#F4F5F0] border-t border-gray-200 z-50
+            md:static md:flex md:w-auto md:bg-transparent md:border-0 md:z-auto
+          `}
         >
           <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-center md:text-left p-4 md:p-0">
             <li>
               <Link
                 to="/"
-                className="text-gray-600 hover:text-gray-900 transition duration-200"
+                onClick={handleNavClick}
+                className="text-gray-700 hover:text-gray-900 transition duration-200"
               >
                 Home
               </Link>
@@ -60,33 +69,23 @@ export default function Header() {
             <li>
               <Link
                 to="/projects"
-                className="text-gray-600 hover:text-gray-900 transition duration-200"
+                onClick={handleNavClick}
+                className="text-gray-700 hover:text-gray-900 transition duration-200"
               >
                 Projects
               </Link>
             </li>
-            {/*
-              Uncomment if you want an About Me section
-              <li>
-                <Link
-                  to="/about"
-                  className="text-gray-600 hover:text-gray-900 transition duration-200"
-                >
-                  About Me
-                </Link>
-              </li>
-            */}
           </ul>
         </nav>
 
-        {/* Right Side: Contact Button */}
+        {/* Right Side: Contact Button (desktop) */}
         <div className="hidden md:block">
           <a
             href="mailto:usunobu.omijie@gmail.com"
             aria-label="Contact me via email"
           >
             <button
-              className="bg-gray-800 px-4 py-2 text-white hover:bg-gray-700 transition duration-200"
+              className="bg-gray-900 px-4 py-2 text-white hover:bg-gray-800 transition duration-200 rounded"
               id="contact"
             >
               Contact Me
@@ -95,12 +94,12 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Contact Button */}
+      {/* Mobile Contact Button (under menu) */}
       {isMenuOpen && (
-        <div className="p-4 text-center md:hidden">
+        <div className="p-4 text-center md:hidden border-t border-gray-200 bg-[#F4F5F0]">
           <a href="mailto:usunobu.omijie@gmail.com">
             <button
-              className="bg-gray-800 px-4 py-2 text-white hover:bg-gray-700 transition duration-200 w-full"
+              className="bg-gray-900 px-4 py-2 text-white hover:bg-gray-800 transition duration-200 w-full rounded"
               id="contact"
             >
               Contact Me
