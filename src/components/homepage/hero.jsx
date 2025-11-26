@@ -5,7 +5,7 @@ import linkIcon from "../../images/linkedin.svg";
 
 export default function Hero() {
   return (
-    <div className="pt-10 px-4 items-center grid md:grid-cols-2 gap-8 justify-center pb-60">
+    <div className="pt-10 px-4 items-center grid md:grid-cols-2 gap-8 justify-center pb-60 bg-[#F4F5F0]">
       {/* Name and Profile Section */}
       <div className="p-6">
         <img src={usuImg} alt="" className="rounded-full h-16 w-20 mx-4 " />
