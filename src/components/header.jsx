@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className="w-full border-b border-gray-200 bg-[#F4F5F0]">
+    <header className="w-full border-b border-gray-200">
       <div className="relative flex w-full justify-between items-center p-4 md:p-6">
         {/* Left Side: Site Name */}
         <div className="flex items-center">
