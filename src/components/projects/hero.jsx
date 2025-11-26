@@ -5,7 +5,7 @@ import linkIcon from "../../images/linkedin.svg";
 
 export default function HeroProjects() {
   return (
-    <div className="pt-10 pb-60 px-6 items-center grid md:grid-cols-2 gap-8 justify-center">
+    <div className="pt-10 pb-60 px-6 items-center grid md:grid-cols-2 gap-8 justify-center bg-[#F4F5F0]">
       {/* Profile and Intro Section */}
       <div className="text-center md:text-left space-y-6">
         <img
